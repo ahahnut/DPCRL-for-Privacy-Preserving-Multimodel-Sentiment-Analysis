@@ -1,6 +1,7 @@
 # Privacy-Preserving Multimodal Sentiment Analysis
 This project includes the codes and some results of our paper.
-We follow the code for the [ACM MM 2020] paper [MISA: Modality-Invariant and -Specific Representations for Multimodal Sentiment Analysis]
+We follow the framework for the [ACM MM 2020] paper [MISA: Modality-Invariant and -Specific Representations for Multimodal Sentiment Analysis].
+However, we modify the codes of models in "models.py" using a new autoencoding architecture.
 
 ### Setup the environment
 
@@ -23,16 +24,3 @@ conda activate DPCRL
 2. Set ```word_emb_path``` in ```config.py``` to [glove file](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 3. Set ```sdk_dir``` to the path of CMU-MultimodalSDK.
 2. ```python train.py --data mosi```. Replace ```mosi``` with ```mosei``` or ```ur_funny``` for other datasets.
-
-### Citation
-
-If our codes are useful for your research, please also cite:
-
-```
-@article{hazarika2020misa,
-  title={MISA: Modality-Invariant and-Specific Representations for Multimodal Sentiment Analysis},
-  author={Hazarika, Devamanyu and Zimmermann, Roger and Poria, Soujanya},
-  journal={arXiv preprint arXiv:2005.03545},
-  year={2020}
-}
-```
