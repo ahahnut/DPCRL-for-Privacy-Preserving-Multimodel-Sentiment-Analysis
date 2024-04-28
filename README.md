@@ -1,7 +1,7 @@
 # Privacy-Preserving Multimodal Sentiment Analysis
 This project includes the codes and some results of our paper.
 We follow the framework for the [ACM MM 2020] paper [MISA: Modality-Invariant and -Specific Representations for Multimodal Sentiment Analysis].
-However, we modify the codes of models in "models.py" using a new autoencoding architecture.
+<font color="red">However, we modify the codes of models in "models.py" using a new autoencoding architecture.<\font>
 
 ### Setup the environment
 
