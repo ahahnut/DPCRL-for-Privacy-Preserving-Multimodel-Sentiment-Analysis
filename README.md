@@ -8,7 +8,7 @@ We work with a conda environment.
 
 ```
 conda env create -f environment.yml
-conda activate misa-code
+conda activate DPCRL
 ```
 
 ### Data Download
