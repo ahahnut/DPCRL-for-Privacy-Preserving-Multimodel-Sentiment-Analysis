@@ -1,4 +1,4 @@
-name: misa-code
+name: DPCRL
 channels:
   - pytorch
   - conda-forge
