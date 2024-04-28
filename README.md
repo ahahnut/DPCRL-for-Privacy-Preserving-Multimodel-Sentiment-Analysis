@@ -26,7 +26,7 @@ conda activate DPCRL
 
 ### Citation
 
-If this paper is useful for your research, please cite:
+If our codes are useful for your research, please also cite:
 
 ```
 @article{hazarika2020misa,
