@@ -19,7 +19,7 @@ conda activate DPCRL
 
 ### Running the code
 
-1. ```cd src```
-2. Set ```word_emb_path``` in ```config.py``` to [glove file](http://nlp.stanford.edu/data/glove.840B.300d.zip).
-3. Set ```sdk_dir``` to the path of CMU-MultimodalSDK.
-2. ```python train.py --data mosi```. Replace ```mosi``` with ```mosei``` or ```ur_funny``` for other datasets.
+
+1. Set ```word_emb_path``` in ```config.py``` to [glove file](http://nlp.stanford.edu/data/glove.840B.300d.zip).
+2. Set ```sdk_dir``` to the path of CMU-MultimodalSDK.
+3. ```python train.py --data mosi```. Replace ```mosi``` with ```mosei``` or ```ur_funny``` for other datasets.
